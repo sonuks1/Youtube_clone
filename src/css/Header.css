@@ -1,0 +1,49 @@
+nav {
+  padding: 10px 2%; /* top and bottom 10px space fix and 2% of screen on left and right side */
+  justify-content: space-between; /* each nav item with same distance inside */
+  /* horizontal and verticle shadow is none , blur radius is 10 px, color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1100;
+}
+.logo_icon {
+  color: red;
+}
+.icon {
+  width: 22px;
+  font-size: 20px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+/* to make searchbar corner round */
+.search_box {
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  padding: 3px 10px;
+  border-radius: 25px;
+}
+/* to hide inside input tag border */
+.search_box input {
+  width: 400px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+.search_box input::placeholder {
+  font-size: 15px;
+}
+
+/* Mobile device media queries */
+@media (max-width: 900px) {
+  .menu_icon {
+    display: none;
+  }
+  .search_box input {
+    width: 100px;
+  }
+  .logo_icon {
+    font-size: 28px;
+  }
+}

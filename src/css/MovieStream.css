@@ -1,0 +1,25 @@
+.moviestream {
+  background-color: #f9f9f9;
+  padding: 10px 1% 20px 2%;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+right-sidebar {
+  flex-basis: 30%;
+}
+@media (max-width: 900px) {
+  .right-sidebar {
+    flex-basis: 100%;
+    padding-left: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: row;
+  }
+  .moviestream {
+    padding-left: 5%;
+  }
+}

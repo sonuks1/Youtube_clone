@@ -1,0 +1,67 @@
+.thumbnail {
+  width: 300px;
+  border-radius: 5%;
+  height: 180px;
+}
+.vid_div {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 4px;
+  margin-bottom: 7px;
+  width: 300px;
+}
+.vid_div img {
+  width: 35px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.vid_info {
+  color: #5a5a5a;
+  font-size: 13px;
+}
+.vid_info a {
+  color: #000;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+  width: 220px;
+}
+.savetowatchlist {
+  font-size: 17px;
+}
+.video-title {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  justify-content: space-between;
+}
+.video-menu {
+  font-size: 14px;
+  padding: 9px 0;
+  position: relative;
+  display: none;
+  flex-direction: column;
+  width: 200px;
+  bottom: 54px;
+  left: 89px;
+  height: 40px;
+  background-color: #5a5a5a;
+}
+
+.video-menu .menu-icon {
+  color: white;
+  margin-left: 5px;
+}
+.video-menu .menu-icon span {
+  margin-left: 6px;
+  cursor: pointer;
+}
+.video-menu.show {
+  display: flex;
+}
+.savetowatchlist {
+  cursor: pointer;
+}
+.vid-list {
+  height: 300px;
+}
